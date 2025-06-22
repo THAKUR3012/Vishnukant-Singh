@@ -97,7 +97,7 @@ const Home = () => {
   }
 
   return (
-    <div className="sm:p-1 md:p-3 lg:pp-[2rem]">
+    <div className="p-0 sm:p-1 md:p-3 lg:pp-[2rem]">
       <NavBar />
       <Hero />
       <TechSlider direction={true} />
