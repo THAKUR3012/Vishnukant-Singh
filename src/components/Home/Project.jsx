@@ -52,7 +52,7 @@ const Project = () => {
       </span>
 
       <div className="relative mt-20 w-full max-w-6xl ">
-        <div className="absolute left-7 md:left-1/2 transform -translate-x-1/2 h-full w-[2px] bg-white/30 z-0" />
+        <div className="absolute left-5 md:left-1/2 transform -translate-x-1/2 h-full w-[2px] bg-white/30 z-0" />
         {projects.map((project, index) => {
           const isLeft = index % 2 === 0;
           console.log(isLeft);
@@ -66,7 +66,7 @@ const Project = () => {
                   isLeft ? "" : "order-2"
                 }`}
               />
-              <div className="absolute  left-7 md:left-1/2 transform -translate-x-1/2 w-12 h-12 bg-white rounded-full flex items-center justify-center border border-gray-400 shadow z-30">
+              <div className="absolute left-5 md:left-1/2 transform -translate-x-1/2 w-12 h-12 bg-white rounded-full flex items-center justify-center border border-gray-400 shadow z-30">
                 <SiReact className="text-black " />
                 <span
                   className={`hidden md:block absolute text-xxs text-gray-400 top-3 ${
@@ -79,7 +79,7 @@ const Project = () => {
 
               <div
                 className={`mt-10 md:w-1/2  ${
-                  isLeft ? "mr-8 md:mr-0" : "ml-34 w-full md:ml-0 pl-0"
+                  isLeft ? "mr-15 md:mr-0" : "ml-37 w-full md:ml-0 pl-0"
                 }  ${isLeft ? "pr-10 md:pr-10 " : "pl-10 md:pl-10 md:order-1"}`}
               >
                 <motion.div
