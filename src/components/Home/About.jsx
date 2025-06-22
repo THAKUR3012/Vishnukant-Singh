@@ -10,11 +10,7 @@ const About = () => {
       className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-30 text-white"
     >
       <div className=" w-full md:w-[600px]  border rounded-4xl">
-        <img
-          src="/public/profile.jpg"
-          alt="Profile"
-          className="p-2 rounded-4xl"
-        />
+        <img src="/profile.jpg" alt="Profile" className="p-2 rounded-4xl" />
       </div>
       <div className="">
         <h3 className=" px-4 max-w-[8rem] py-2.5 border bg-[#343333] rounded-3xl text-white text-lg text-center font-semibold">

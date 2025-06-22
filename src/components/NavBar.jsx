@@ -99,7 +99,7 @@ const Navbar = () => {
       {/* Avatar */}
       <div className="hidden md:flex items-center gap-2">
         <img
-          src="/public/logo.png"
+          src="/logo.png"
           alt="avatar"
           className="w-8 h-8 rounded-full border border-gray-600"
         />
