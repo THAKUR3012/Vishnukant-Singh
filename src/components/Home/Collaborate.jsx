@@ -37,7 +37,7 @@ const Collaborate = () => {
       <div className="mt-10">
         <a
           href="mailto:vishnukantsingh782@gmail.com"
-          className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-gray-200 transition-all"
+          className="px-6 py-3 bg-[#343333] border text-white font-medium rounded-full transition-all"
         >
           📧 Contact Me for Collaboration
         </a>
