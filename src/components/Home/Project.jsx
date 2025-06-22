@@ -28,7 +28,7 @@ const projects = [
       "A personal portfolio showcasing my projects, skills, and contact information with a sleek UI.",
     tags: ["React", "Framer Motion", "TailwindCSS"],
     year: "2025",
-    link: "#",
+    link: "https://vishnukant-singh.vercel.app/",
   },
 ];
 
