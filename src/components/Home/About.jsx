@@ -11,7 +11,7 @@ const About = () => {
     >
       <div className=" w-full md:w-[600px]  border rounded-4xl">
         <img
-          src="/src/assets/Profile.jpg"
+          src="/public/profile.jpg"
           alt="Profile"
           className="p-2 rounded-4xl"
         />
