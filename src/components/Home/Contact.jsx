@@ -49,7 +49,7 @@ const Contact = () => {
         <button className="px-4 py-2.5 flex justify-center items-center gap-3 border bg-[#343333] rounded-3xl cursor-pointer">
           <SiGithub />
           <a
-            href="https://github.com/vishnukantsingh782" // change if different
+            href="https://github.com/THAKUR3012/" // change if different
             target="_blank"
             rel="noopener noreferrer"
             className="block text-white text-center"
